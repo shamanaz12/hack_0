@@ -1,0 +1,83 @@
+{
+  "main": {
+    "id": "main-workspace",
+    "type": "split",
+    "children": [
+      {
+        "id": "left-sidebar",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "main-content",
+        "type": "split",
+        "children": [
+          {
+            "id": "editor-area",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": null,
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "horizontal"
+  },
+  "left": {
+    "id": "left-dock",
+    "type": "dock",
+    "children": [
+      {
+        "id": "search",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {}
+        }
+      },
+      {
+        "id": "tag",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "right": {
+    "id": "right-dock",
+    "type": "dock",
+    "children": [
+      {
+        "id": "backlink",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {}
+        }
+      },
+      {
+        "id": "outline",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "active": "main-content"
+}

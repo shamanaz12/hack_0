@@ -1,0 +1,45 @@
+#!/bin/bash
+# Ralph Wiggum Reasoning Loop - Bash Wrapper
+# Usage: /ralph-loop "Your task prompt here"
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Check if task prompt is provided
+if [ -z "$1" ]; then
+    echo "Usage: /ralph-loop \"Your task prompt here\""
+    echo ""
+    echo "Example:"
+    echo '  /ralph-loop "Write a blog post about AI automation"'
+    exit 1
+fi
+
+# Check if Python is available
+if ! command -v python &> /dev/null && ! command -v python3 &> /dev/null; then
+    echo "Error: Python is not installed or not in PATH"
+    exit 1
+fi
+
+# Determine Python command
+if command -v python3 &> /dev/null; then
+    PYTHON_CMD="python3"
+else
+    PYTHON_CMD="python"
+fi
+
+# Check if dashscope is installed (optional)
+$PYTHON_CMD -c "import dashscope" 2>/dev/null
+if [ $? -ne 0 ]; then
+    echo "Warning: dashscope package not installed"
+    echo "Install with: pip install dashscope"
+    echo "Running in simulated mode..."
+    echo ""
+fi
+
+# Run the reasoning loop
+echo "Starting Ralph Wiggum Reasoning Loop..."
+echo ""
+
+$PYTHON_CMD "$SCRIPT_DIR/ralph_loop_runner.py" "$@"
+
+exit $?

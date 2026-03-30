@@ -1,0 +1,2 @@
+This is a test file to demonstrate the file watcher functionality.
+When placed in the Drop_Folder, it should be automatically copied to the Needs_Action folder.

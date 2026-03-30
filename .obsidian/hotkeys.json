@@ -1,0 +1,26 @@
+[
+  {
+    "command": "editor:swap-line-up",
+    "keyBindings": [
+      {
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ],
+        "key": "ArrowUp"
+      }
+    ]
+  },
+  {
+    "command": "editor:swap-line-down",
+    "keyBindings": [
+      {
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ],
+        "key": "ArrowDown"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "week_start": "2026-03-22",
+  "week_end": "2026-03-29",
+  "generated_at": "2026-03-29T14:12:27.512832",
+  "total_revenue": 0.0,
+  "total_expenses": 0.0,
+  "total_invoices": 0,
+  "pending_invoices": 0,
+  "paid_invoices": 0,
+  "facebook_followers": 0,
+  "facebook_posts": 0,
+  "facebook_engagement": 0,
+  "facebook_reach": 0,
+  "instagram_followers": 0,
+  "instagram_posts": 0,
+  "instagram_likes": 0,
+  "instagram_comments": 0,
+  "instagram_reach": 0,
+  "emails_received": 0,
+  "emails_sent": 0,
+  "emails_pending": 0,
+  "overall_status": "normal",
+  "key_highlights": [],
+  "action_items": [
+    "Increase Facebook posting frequency"
+  ]
+}

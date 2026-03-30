@@ -1,0 +1,17 @@
+[
+  {
+    "skill": "odoo_invoice",
+    "timestamp": "2026-03-24T20:46:45.864163",
+    "invoice": {
+      "invoice_id": 74,
+      "customer_email": "admin@example.com",
+      "amount": 100.0,
+      "description": "Test Invoice - Skill Verification",
+      "status": "Created"
+    },
+    "odoo_config": {
+      "url": "http://localhost:8069",
+      "database": "odoo"
+    }
+  }
+]

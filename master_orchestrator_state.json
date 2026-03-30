@@ -1,0 +1,58 @@
+{
+  "odoo_mcp": {
+    "status": "stopped",
+    "pid": null,
+    "started_at": null,
+    "last_error": null,
+    "restart_count": 0
+  },
+  "facebook_mcp": {
+    "status": "stopped",
+    "pid": null,
+    "started_at": null,
+    "last_error": null,
+    "restart_count": 0
+  },
+  "instagram_mcp": {
+    "status": "stopped",
+    "pid": null,
+    "started_at": null,
+    "last_error": null,
+    "restart_count": 0
+  },
+  "email_mcp": {
+    "status": "stopped",
+    "pid": null,
+    "started_at": null,
+    "last_error": null,
+    "restart_count": 0
+  },
+  "gmail_watcher": {
+    "status": "stopped",
+    "pid": null,
+    "started_at": null,
+    "last_error": null,
+    "restart_count": 0
+  },
+  "whatsapp_watcher": {
+    "status": "stopped",
+    "pid": null,
+    "started_at": null,
+    "last_error": null,
+    "restart_count": 0
+  },
+  "orchestrator": {
+    "status": "stopped",
+    "pid": null,
+    "started_at": null,
+    "last_error": null,
+    "restart_count": 0
+  },
+  "ralph_loop": {
+    "status": "stopped",
+    "pid": null,
+    "started_at": null,
+    "last_error": null,
+    "restart_count": 0
+  }
+}

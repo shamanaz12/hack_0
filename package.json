@@ -1,0 +1,38 @@
+{
+  "name": "gold-tier-mcp-servers",
+  "version": "2.0.0",
+  "description": "Gold Tier MCP Servers - Calendar, Slack, WhatsApp, Facebook, Instagram, Odoo",
+  "main": "index.js",
+  "scripts": {
+    "start:calendar": "node mcp_servers/calendar_mcp.js",
+    "start:slack": "node mcp_servers/slack_mcp.js",
+    "start:whatsapp": "node mcp_servers/whatsapp_mcp.js",
+    "start:facebook": "node mcp_servers/facebook_mcp.js",
+    "start:instagram": "node mcp_servers/instagram_mcp.js",
+    "start:all": "node index.js",
+    "test:calendar": "node mcp_servers/calendar_mcp.js --test",
+    "test:slack": "node mcp_servers/slack_mcp.js --test",
+    "test:whatsapp": "node mcp_servers/whatsapp_mcp.js --test"
+  },
+  "keywords": [
+    "mcp",
+    "gold-tier",
+    "calendar",
+    "slack",
+    "whatsapp",
+    "facebook",
+    "instagram",
+    "automation"
+  ],
+  "author": "Gold Tier - Naz Sheikh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "googleapis": "^128.0.0",
+    "@slack/web-api": "^6.9.0",
+    "@slack/events-api": "^3.0.1",
+    "open": "^8.4.2"
+  }
+}

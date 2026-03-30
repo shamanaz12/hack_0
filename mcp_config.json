@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "odoo": {
+      "command": "python",
+      "args": ["C:/Users/AA/Desktop/gold_tier/odoo_mcp_server.py"],
+      "env": {
+        "ODOO_URL": "http://localhost:8069",
+        "ODOO_DB": "odoo",
+        "ODOO_USERNAME": "admin@example.com",
+        "ODOO_PASSWORD": "admin123"
+      }
+    }
+  }
+}

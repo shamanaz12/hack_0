@@ -1,0 +1,13 @@
+{
+  "orchestration_report": {
+    "start_time": "2026-03-30T18:38:48.679462",
+    "end_time": "2026-03-30T18:38:52.894071",
+    "posts_attempted": 0,
+    "posts_successful": 0,
+    "posts_failed": 0,
+    "errors": [],
+    "status": "completed"
+  },
+  "duration_seconds": 4.214609,
+  "summary": "Completed: 0/0 posts"
+}

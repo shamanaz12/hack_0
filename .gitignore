@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Sessions (sensitive auth data)
+automation/sessions/*.json
+facebook_browser_profile/
+chrome_profile/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+backup/
+
+# Test files
+test_*.py
+*_test.py
+
+# MCP test scripts
+test_*.py
+simulate_*.py

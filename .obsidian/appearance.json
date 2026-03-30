@@ -1,0 +1,11 @@
+{
+  "cssTheme": "",
+  "theme": "moonstone",
+  "enabledCssSnippets": [],
+  "translucency": false,
+  "nativeMenus": true,
+  "showViewHeader": false,
+  "rightToLeft": false,
+  "showLineNumber": true,
+  "vimMode": false
+}

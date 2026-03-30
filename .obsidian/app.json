@@ -1,0 +1,29 @@
+{
+  "showInlineTitle": true,
+  "livePreview": true,
+  "strictLineBreaks": false,
+  "showUnsupportedFiles": false,
+  "propertiesInDocument": "disabled",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "",
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "confirmDeletion": true,
+  "autoConvertHtml": true,
+  "readableLineLength": true,
+  "showLineNumber": true,
+  "vimMode": false,
+  "showIndentGuide": true,
+  "mobilePullAction": "sync-vault",
+  "mobileQuickWritingFolder": "",
+  "foldHeading": true,
+  "foldIndent": true,
+  "spellcheck": false,
+  "spellcheckLanguages": [
+    "en"
+  ],
+  "showInlineTitleForNewNotes": true,
+  "attachmentFolderPathOption": "custom"
+}
